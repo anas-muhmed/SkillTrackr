@@ -1,5 +1,6 @@
 // app/stats/page.tsx
 import StatsCard from "./StatsCard";
+import ActivityChart from "./ActivityChart";
 
 export default function StatsPage() {
   return (
@@ -11,6 +12,7 @@ export default function StatsPage() {
         <StatsCard title="Weekly Streak" value="5 Days" icon="📅" />
         <StatsCard title="Last 7 Days" value="10 Entries" icon="🔁" />
       </div>
+      <ActivityChart/>
     </div>
   );
 }
